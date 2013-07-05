@@ -1,0 +1,176 @@
+/* navbar  */
+.navbar-inner{
+	background: none;
+	filter : none;
+	border: none;
+	box-shadow: none;
+    padding-top: 30px;
+            }
+
+
+/* footer icon */ 
+
+#inline >li{
+           margin-left:20px;
+		   display:inline;
+		 }
+		  
+#inline > li img:hover {
+			transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-moz-transform: rotate(360deg);
+			transition: transform 0.2s ease-out;
+			-webkit-transition: -webkit-transform 0.2s ease-out;
+			-moz-transition: -moz-transform 0.2s ease-out;
+			 }
+
+#inline > li img{
+ height: 30px;
+ width: 30px;
+ cursor: pointer;
+            }
+
+#inline{
+ line-height:none;
+        }
+
+/* left sidebar  */
+#logo img{
+     width:148px;
+     height:100px;
+     background-image: url('../img/logo.gif ');
+     display:block;
+	 margin-left:68px;
+ }
+
+#accordion ul {
+    display:none;
+    }
+	
+#accordion >li >a{
+	cursor:pointer;
+	font-weight: bold;
+	font-size:110%;
+	padding-left:20px;
+	}
+	
+#accordion >li >a>i{
+	margin-right:15px;
+	}	
+	
+#accordion ul a{
+	padding-left:27%;
+	font-weight: bold;
+       }
+	
+#thumb1 .thumbnail{
+	  background-color:#FFFFFF;  
+	  border:1px solid #DDDDDD;
+	}
+	 
+.left-sidebar{
+    position:fixed;
+    top:0px;
+    width:14.16%;
+	padding-top:15px;
+	 }
+	
+.sidemenuwidth{
+    margin-right:-17%;
+    margin-left:-11.5%;
+        }
+		
+.sidemenuwidth li a{
+	text-transform: uppercase; 
+     }	
+		
+	
+/* right sidebar  */	
+.right-sidebar{
+    position:fixed;
+    top:0px;
+	right:0px;
+    width:18.62%;
+	background-color:#3F3F3F;
+	padding-bottom:5%;
+	padding-top:15px;
+    }
+
+.thumb{
+	  background-color:#FFFFFF;
+	  }	
+	
+/*middle containt for all qpeka page*/
+.well{
+	  background-color:#F4F4F4;
+	  padding-top:0px;
+	 }
+  
+/*middle containt for qpeka book */
+#thumb1 .thumbnail{
+	  background-color:#FFFFFF;  
+	  border:1px solid #DDDDDD;
+	  display:inline-block;
+	  padding:10px;
+	 }
+	 
+/*middle containt for qpeka library */
+	 
+.backcolor{
+	  background-color:#FFFFFF;
+	  }
+	  
+.cust_tabcontent{ 
+	   background-color:#FFFFFF;
+	   border-radius:0px 4px 4px 4px;
+	   border-top:none;
+	   }
+	   
+.text_align{
+	  text-align:justify;
+	  word-wrap:break-word;
+	  }
+	  
+.form-horizontal .control-label {
+       width:87px;
+       }
+		
+.form-horizontal .controls {
+			margin-left: 107px;
+			}
+			
+.hr_margin{
+	  margin:10px 0px ! important;
+	  }
+	  
+@media (max-width: 767px) {
+.left-sidebar {
+        position:static;
+        width:auto;
+		}
+		
+#logo img{
+		 margin-left:18%;
+		 width:100%;
+		}
+		
+.sidemenuwidth{
+         margin-right:auto;
+         margin-left:auto;
+         }
+		 
+.right-sidebar {
+      position:static;
+      width:auto;
+	} 
+}
+    
+@media (max-width: 979px) {
+
+}
+  
+@media (max-width: 767px) {
+    body {
+        padding-top: 0;
+    }
+}
