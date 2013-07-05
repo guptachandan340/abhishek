@@ -72,6 +72,7 @@ src: url('../font-name/SEGOEUIB.TTF');
 
 #accordion ul {
     display:none;
+	margin-bottom: -4px;
     }
 	
 #accordion li a{
@@ -171,34 +172,41 @@ border-left:1px solid black !important;
 border-right:1px solid black !important;
 } 
 
-/*middle containt for qpeka book */
+/*middle containt for qpeka library*/
+
+.input_radius{
+width:100px;
+border-radius: 0px 0px 0px 0px !important;
+}
+
+
 .horizontal_line{
 border-bottom:1px solid black;
 }
 .image img{
 height:120px;
 width:80px;
-vertical-align:middle;
-
 }
 
 .img_inline img{
-float:left;
+
 width:39px;
 height:40px;
 margin-right:9px;
 }
-
 .img_inline h3{
 margin:3px 0;
-float:left;
 }
-.img_inline .pag{
-float:right;
+.img_inline div.btnpadd{
+padding-top:20px;
+margin-right:27px;
 }
-.img_inline .pag ul{
-margin-bottom:-23px;
+
+.fivecolumns{
+text-align:center;
 }
+
+
 
 
 #thumb1 .thumbnail{
@@ -208,7 +216,7 @@ margin-bottom:-23px;
 	  padding:10px;
 	 }
 	 
-/*middle containt for qpeka library */
+/*middle containt for qpeka book*/
 	 
 .backcolor{
 	  background-color:#FFFFFF;
@@ -238,19 +246,13 @@ background-color:#E0E0E0
 			
 .hr_margin{
 	  margin:5px 0px ! important;
+	  clear:both;
 	  }
 	  
 @media (max-width: 767px) {
-
-	
 .left-sidebar {
         position:static;
         width:auto;
-		}
-		
-#logo img{
-	
-		 
 		}
 		
 .sidemenuwidth{
@@ -263,6 +265,7 @@ background-color:#E0E0E0
       width:auto;
 	} 
 }
+
     
 @media (min-width: 768px){
     .fivecolumns .span2 {
