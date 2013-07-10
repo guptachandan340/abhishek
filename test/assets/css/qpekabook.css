@@ -1,0 +1,158 @@
+/* navbar  */
+.navbar-inner{
+	background: none;
+	filter : none;
+	border: none;
+	box-shadow: none;
+   padding-top: 30px;
+}
+
+
+/* footer icon */ 
+#inline >li{
+				 margin-left:20px;
+				 display:inline;
+		  }
+		  
+#inline > li img:hover {
+transform: rotate(360deg) !important;
+	-webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+	transition: transform 0.2s ease-out;
+	-webkit-transition: -webkit-transform 0.2s ease-out;
+        -moz-transition: -moz-transform 0.2s ease-out;
+
+}
+
+#inline > li img{
+height: 30px;
+width: 30px;
+cursor: pointer;
+}
+
+#inline{
+line-height:none;
+}
+
+/* sidebar left  */
+
+#logo{
+	width:300px;
+    height:200px;
+   background-image: url('../img/logo.gif ');
+   display:block;
+}
+
+#range-logo {
+   background-image:url(../img/logo.gif);
+   display:block;
+   height:100px;
+   width:200px;
+  
+}
+
+#accordion ul {
+    display:none;
+    }
+	
+#accordion >li >a{
+	cursor:pointer;
+	font-weight: bold;
+	font-size:110%;
+	padding-left:20px;
+    }
+	
+#accordion >li >a>i{
+	margin-right:15px;
+	}	
+	
+   #accordion ul a{
+	padding-left:27%;
+	font-weight: bold;
+  }
+	
+#thumb1 .thumbnail{
+	  background-color:#FFFFFF;  
+	  border:1px solid #DDDDDD;
+	  display:inline-block;
+	  padding:10px;
+	 }
+	 
+.sidebar-nav-fixed-left {
+    position:fixed;
+    top:0px;
+    width:14.16%;
+	padding-top:15px;
+	}
+	
+	.sidemenuwidth{
+    margin-right:-33px;
+    margin-left:-20.5px;
+        }
+		
+	.sidemenuwidth li a{
+	text-transform: uppercase; 
+}
+		
+	
+/* sidebar right  */
+div.titlefront {
+    background-color:#E0E0E0;
+}	
+.sidebar-nav-fixed-right {
+    position:fixed;
+    top:0px;
+	right:0px;
+    width:18.62%;
+	background-color:#3F3F3F;
+	padding-bottom:5%;
+	padding-top:15px;
+    }
+	
+	 
+	/*image container */  
+	 .well{
+	  background-color:#F4F4F4;
+	  padding-top:0px;
+	 }
+	  
+	 
+	.thumb{
+	  background-color:#FFFFFF;
+	  }
+	  
+	  
+	
+	  
+	  
+ @media (max-width: 767px) {
+    .sidebar-nav-fixed-left {
+        position:static;
+        width:auto;
+		}
+	   
+	 
+		.sidemenuwidth{
+         margin-right:auto;
+         margin-left:auto;
+         }
+		 
+	 .sidebar-nav-fixed-right {
+      position:static;
+      width:auto;
+	} 
+}
+    
+
+@media (max-width: 979px) {
+    .sidebar-nav-fixed-left {
+        top:0px;
+    }
+	
+}
+  
+@media (max-width: 767px) {
+    body {
+        padding-top: 0;
+    }
+}
