@@ -1,0 +1,408 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Qpeka</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Le styles -->
+      <link href="assets/css/bootstrap.qpeka.css" rel="stylesheet">
+      <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+      <link href="assets/css/jquery.toolbars.css" rel="stylesheet" />
+      <link href="assets/css/jquery.tagit.css" rel="stylesheet" type="text/css">
+      <link href="assets/css/tagit.ui-zendesk.css" rel="stylesheet" type="text/css">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <!-- Fav and touch icons -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png" />
+      <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png" />
+      <link rel="shortcut icon" href="assets/ico/favicon.png" />
+      <script src="assets/js/jquery.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+      <script src="assets/js/bootstrap-transition.js"></script>
+      <script src="assets/js/bootstrap-alert.js"></script>
+      <script src="assets/js/bootstrap-modal.js"></script>
+      <script src="assets/js/bootstrap-dropdown.js"></script>
+      <script src="assets/js/bootstrap-scrollspy.js"></script>
+      <script src="assets/js/bootstrap-tab.js"></script>
+      <script src="assets/js/bootstrap-tooltip.js"></script>
+      <script src="assets/js/bootstrap-popover.js"></script>
+      <script src="assets/js/bootstrap-button.js"></script>
+      <script src="assets/js/bootstrap-collapse.js"></script>
+      <script src="assets/js/bootstrap-carousel.js"></script>
+      <script src="assets/js/bootstrap-typeahead.js"></script>
+      <script src="assets/js/jquery.knob.js"></script>    
+      <script src="assets/js/jquery.toolbar.js"></script>
+      <script src="assets/js/tag-it.js" type="text/javascript" charset="utf-8"></script>
+      <script src="assets/js/qpeka.js"></script>
+   </head>
+   <body>
+      <div class="container-fluid sideLayout" >
+         <div class="row-fluid">
+            <aside class="span2 leftbar">
+               <div class="left-sidebar" >
+                  <div class="row-fluid">
+                     <a href="#" style="display: block;text-align:center;padding-top:5px;"><img src="assets/img/logo.png" alt="qpeka"></a>
+                  </div>
+                  <div class="row-fluid">
+                     <ul id="accordion" class="nav nav-pills nav-stacked">
+                        <!-- <li class="active"><a href="#" class="active">Home</a></li> -->
+                        <li>
+                           <a>Qpeka</a>
+                           <ul class="nav nav-pills nav-stacked">
+                              <li><a href="#">Library</a></li>
+                              <li><a href="#">Groups</a></li>
+                              <li><a href="#">Event</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a></i>My Account</a>
+                           <ul class="nav nav-pills nav-stacked">
+                              <li><a href="#">Rack</a></li>
+                              <li><a href="#">Dairy</a></li>
+                              <li><a href="#">Friends</a></li>
+                              <li><a href="#">Following</a></li>
+                              <li><a href="#">Followers</a></li>
+                              <li><a href="#">My Groups</a></li>
+                              <li><a href="#">My Events</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="#" >Settings</a></li>
+                        <li><a href="#" >Settings</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </aside>
+            <div class="span8 well middlesection">
+               <section class="row-fluid row_margin" >
+                  <form>
+                     <ul id="myULTags">
+                        <!-- Existing list items will be pre-added to the tags. -->
+                        <li>Qpeka</li>
+                        <li>Library</li>
+                        <li>Books</li>
+                     </ul>
+                  </form>
+               </section>
+               <section class="row-fluid">
+                  <div class="span12 thumbnail backcolor">
+                     <div class="span3">
+                        <br>
+                        <img src="assets/img/star.jpg" style="height: 220px;width: 160px;" class="img-polaroid">
+                     </div>
+                     <div class="span9">
+                        <h3>Star War Episode !</h3>
+                        <p class="text_align">
+                           Palpatine is among the candidates to replace the Supreme Chancellor, 
+                           and the Queen later announces to Palpatine that she herself will return 
+                           to their home planet to repel the invasion of her people. She is frustrated 
+                           by the Senate's deliberation and lack of action, and feels that even if Palpatine 
+                           is elected Chancellor, it will be too late. The Jedi Council sends the two Jedi to 
+                           accompany the Queen back to Naboo, hoping to shed light on any Sith involvement... 
+                        </p>
+                        <div class="thumbnail">
+                           <small>
+                              <dl class="dl-horizontal">
+                                 <dt>In</dt>
+                                 <dd>SciFiction</dd>
+                                 <dt>Author</dt>
+                                 <dd>Terry Books</dd>
+                                 <dt>ISBN</dt>
+                                 <dd>0765331268 (ISBN13: 9780765331267)</dd>
+                              </dl>
+                           </small>
+                           <hr>
+                        </div>
+                     </div>
+                  </div>
+               </section>
+               <section class="row-fluid" >
+                  <div class="span8">
+                     <div class="row-fluid" >
+                        <br>
+                        <div class="tabbable">
+                           <ul class="nav nav-tabs" style="margin-bottom:0.5px;">
+                              <li class="active"><a href="#pane1" data-toggle="tab">Comments</a></li>
+                              <li><a href="#pane2" data-toggle="tab">Reviews</a></li>
+                              <li><a href="#pane3" data-toggle="tab">Others</a></li>
+                           </ul>
+                           <div class="tab-content thumbnail cust_tabcontent">
+                              <div id="pane1" class="tab-pane active text_align">
+                                 <h4>Product Comments</h4>
+                                 <div class="media">
+                                    <a class="pull-left" href="#">
+                                       <img src="assets/img/im1.jpg" style="height: 60px;width: 50px;" class="img-polaroid media-object">
+                                       <p class="muted">name1</p>
+                                    </a>
+                                    <div class="media-body text_align">
+                                       <p>I was just watching Menace again and was struck by Obi-Wan's illogical reaction to their first encounter with Darth Maul,
+                                          just before they leave Tatooine. So Obi-Wan was in the ship expecting the return 
+                                          of his master when suddenly the security guy walks in saying "Qui-Gon is in trouble.
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <hr style="margin:-6px 0px;">
+                                 <div class="media">
+                                    <a class="pull-left" href="#">
+                                       <img src="assets/img/im2.jpg" style="height: 60px;width: 50px;" class="img-polaroid media-object">
+                                       <p class="muted">name1</p>
+                                    </a>
+                                    <div class="media-body text_align">
+                                       <p>I was just watching Menace again and was struck by Obi-Wan's illogical reaction to their first encounter with Darth Maul,
+                                          just before they leave Tatooine. So Obi-Wan was in the ship expecting the return 
+                                          of his master when suddenly the security guy walks in saying "Qui-Gon is in trouble.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div id="pane2" class="tab-pane text_align">
+                                 <h4>Product Reviews</h4>
+                                 <div class="media">
+                                    <a class="pull-left" href="#">
+                                       <img src="assets/img/im2.jpg" style="height: 60px;width: 50px;" class="img-polaroid media-object">
+                                       <p class="muted">name1</p>
+                                    </a>
+                                    <div class="media-body">
+                                       <p>I was just watching Menace again and was struck by Obi-Wan's illogical reaction to their first encounter with Darth Maul,
+                                          just before they leave Tatooine. So Obi-Wan was in the ship expecting the return 
+                                          of his master when suddenly the security guy walks in saying "Qui-Gon is in trouble.
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <hr style="margin:-6px 0px;">
+                                 <div class="media">
+                                    <a class="pull-left" href="#">
+                                       <img src="assets/img/im1.jpg" style="height: 60px;width: 50px;" class="img-polaroid media-object">
+                                       <p class="muted">name1</p>
+                                    </a>
+                                    <div class="media-body text_align">
+                                       <p>I was just watching Menace again and was struck by Obi-Wan's illogical reaction to their first encounter with Darth Maul,
+                                          just before they leave Tatooine. So Obi-Wan was in the ship expecting the return 
+                                          of his master when suddenly the security guy walks in saying "Qui-Gon is in trouble.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div id="pane3" class="tab-pane text_align">
+                                 <div class="span4">
+                                    hgggggggj
+                                 </div>
+                                 <div class="span4">
+                                    ghhhhhhh
+                                 </div>
+                                 <div class="span4">
+                                    gjjjjjjjjjjh
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- /.tab-content -->
+                        </div>
+                        <!-- /.tabbable -->
+                     </div>
+                     <br>
+                     <div class="row-fluid" >
+                        <div class="span12 thumbnail backcolor ">
+                           <h4>Product Review</h4>
+                           <div class="media">
+                              <a class="pull-left" href="#">
+                                 <img src="assets/img/im1.jpg" style="height: 60px;width: 50px;" class="img-polaroid media-object">
+                                 <p class="muted">name1</p>
+                              </a>
+                              <div class="media-body">
+                                 <p>I was just watching Menace again and was struck by Obi-Wan's illogical reaction to their first encounter with Darth Maul,
+                                    just before they leave Tatooine. So Obi-Wan was in the ship expecting the return 
+                                    of his master when suddenly the security guy walks in saying "Qui-Gon is in trouble.
+                                 </p>
+                              </div>
+                           </div>
+                           <hr style="margin:-6px 0px;">
+                           <div class="media">
+                              <a class="pull-left" href="#">
+                                 <img src="assets/img/im2.jpg" style="height: 60px;width: 50px;" class="img-polaroid media-object">
+                                 <p class="muted">name1</p>
+                              </a>
+                              <div class="media-body text_align">
+                                 <p>I was just watching Menace again and was struck by Obi-Wan's illogical reaction to their first encounter with Darth Maul,
+                                    just before they leave Tatooine. So Obi-Wan was in the ship expecting the return 
+                                    of his master when suddenly the security guy walks in saying "Qui-Gon is in trouble.
+                                 </p>
+                              </div>
+                           </div>
+                           <h4>write comments</h4>
+                           <form class="form-horizontal" action='' method="POST">
+                              <div class="control-group">
+                                 <!-- Username -->
+                                 <label class="control-label" for="username">Your Name</label>
+                                 <div class="controls">
+                                    <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+                                 </div>
+                              </div>
+                              <div class="control-group">
+                                 <!-- Password-->	
+                                 <label class="control-label" for="password">Email</label>
+                                 <div class="controls">	
+                                    <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+                                 </div>
+                              </div>
+                              <div class="control-group">
+                                 <!-- Password-->	
+                                 <label class="control-label" for="message">Message</label>
+                                 <div class="controls">	
+                                    <textarea value="Smith" rows="3" class="input-xlarge"></textarea>
+                                 </div>
+                              </div>
+                              <div class="control-group">
+                                 <!-- Button -->
+                                 <div class="controls">
+                                    <button type="submit" class="btn">Login</button>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+                  <br>
+                  <div class="span4 thumbnail backcolor">
+                     <h4>You may also like</h4>
+                     <ul style="list-style:none;margin:0px;">
+                        <li>
+                           <div class="media">
+                              <a class="pull-left" href="#">
+                              <img src="assets/img/testimg4.jpg" style="height: 80px;width: 55px;" class="img-polaroid media-object">
+                              </a>	
+                              <div class="media-body text_align">
+                                 <strong>The Hare With Amber </strong><br>
+                                 <em class="muted" >by Rhiannon Frater</em>							  
+                              </div>
+                           </div>
+                           <hr class="hr_margin">
+                        </li>
+                        <li>
+                           <div class="media">
+                              <a class="pull-left" href="#">
+                              <img src="assets/img/testimg4.jpg" style="height: 80px;width: 55px;" class="img-polaroid media-object">
+                              </a>	
+                              <div class="media-body text_align">
+                                 <strong>The Hare With Amber </strong><br>
+                                 <em class="muted" >by Rhiannon Frater</em>							  
+                              </div>
+                           </div>
+                           <hr class="hr_margin">
+                        </li>
+                        <li>
+                           <div class="media">
+                              <a class="pull-left" href="#">
+                              <img src="assets/img/testimg4.jpg" style="height: 80px;width: 55px;" class="img-polaroid media-object">
+                              </a>	
+                              <div class="media-body text_align">
+                                 <strong>The Hare With Amber </strong><br>
+                                 <em class="muted" >by Rhiannon Frater</em>							  
+                              </div>
+                           </div>
+                           <hr class="hr_margin">
+                        </li>
+                        <li>
+                           <div class="media">
+                              <a class="pull-left" href="#">
+                              <img src="assets/img/testimg4.jpg" style="height: 80px;width: 55px;" class="img-polaroid media-object">
+                              </a>	
+                              <div class="media-body text_align">
+                                 <strong>The Hare With Amber </strong><br>
+                                 <em class="muted" >by Rhiannon Frater</em>							  
+                              </div>
+                           </div>
+                           <hr class="hr_margin">
+                        </li>
+                     </ul>
+                  </div>
+               </section>
+            </div>
+            <div class="span2 rightbar" id="crou" >
+               <div class="right-sidebar">
+                  <section class="row-fluid" style="text-align:center;">
+                     <div class="span12">
+                        <input class="knob" data-angleOffset="360"  data-height="50" data-min="0" data-max="5" data-width="50" data-fgColor="#FF69B4" data-linecap=round value="2" data-readOnly="true" />
+                        <input class="knob" data-angleOffset="360"  data-height="50" data-width="50" data-min="0" data-max="5" data-fgColor="#9ACD32" data-linecap="round" value="3" data-readOnly="true" />
+                     </div>
+                  </section>
+                  <section class="row-fluid">
+                     <h5 class="rightfont">Book Of The Month</h5>
+                     <div style="margin:auto;width:80%;">
+                        <div class="thumbnail">
+                           <div id="myCarousel23" class="carousel slide" style="margin-bottom:0px;">
+                              <div class="carousel-inner">
+                                 <div class="item active">
+                                    <div class="row-fluid" style="background-color:#E0E0E0">
+                                       <div class="span12" style="text-align:center;">
+                                          <img src="assets/img/testimg2.jpg" style="height: 100px;width: 70px;"  class="img-polaroid"><br><br>
+                                       </div>
+                                    </div>
+                                    <div class="row-fluid" >
+                                       <div class="span12" >
+                                          <strong class="text-info" style="text-align:center">Angelos & Demons2</strong>
+                                          <p style="word-wrap:break-word;">At Whistling Woods Intern ational School of Filmmaking, we give our students the opportunity to grow beyond their beliefs.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="item ">
+                                    <div class="row-fluid" style="background-color:#E0E0E0">
+                                       <div class="span12" style="text-align:center;">
+                                          <img src="assets/img/testimg2.jpg" style="height: 100px;width: 70px;"  class="img-polaroid"><br><br>
+                                       </div>
+                                    </div>
+                                    <div class="row-fluid" >
+                                       <div class="span12" >
+                                          <strong class="text-info" style="text-align:center">Angelos & Demons2</strong>
+                                          <p style="word-wrap:break-word;">At Whistling Woods Intern ational School of Filmmaking, we give our students the opportunity to grow beyond their beliefs.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <a class="left carousel-control" href="#myCarousel23" data-slide="prev">&lsaquo;</a>
+                              <a class="right carousel-control" href="#myCarousel23" data-slide="next">&rsaquo;</a>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+                  <section class="row-fluid">
+                     <h5 class="rightfont">Book Of The Month</h5>
+                     <div style="margin:auto;width:80%;">
+                        <div class="thumbnail" style="padding:20px;">
+                           <img src="assets/img/nokia.jpg" style="height: 165px;width:195px;" class="img-polaroid">	
+                        </div>
+                     </div>
+                  </section>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row-fluid">
+            <div class="span2"></div>
+            <div class="span7">
+               <hr style="-moz-border-bottom-colors:red;">
+               <footer>
+                  <p class="pull-left"><a href="#" target="_blank" >About</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank" >Terms</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" target="_blank" > Policy</a></p>
+                  <ul style="list-style-type:none;" id="inline" class="pull-right">
+                     <li ><a href="http://www.facebook.com/QPeka" target="_blank" ><img src="assets/img/facebook.jpg" alt="facebook"  class="img-polaroid" ></a></li>
+                     <li ><a href="https://twitter.com/Qpeka" target="_blank" ><img src="assets/img/twitter.jpg" alt="twitter" class="img-polaroid"></a></li>
+                     <li ><a href="https://plus.google.com/u/0/105503612681049358203" target="_blank"><img src="assets/img/google.jpg" alt="google" class="img-polaroid"></a></li>
+                     <li ><a href="http://www.linkedin.com/company/3094262" target="_blank"><img src="assets/img/linkedin.jpg" alt="linkedin" class="img-polaroid"></a></li>
+                  </ul>
+               </footer>
+            </div>
+            <div class="span3"></div>
+         </div>
+      </div>
+      <!-- Le javascript
+         ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+   </body>
+</html>
+
